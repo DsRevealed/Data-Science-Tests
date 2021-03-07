@@ -1,1 +1,21 @@
 AnswerRocket Data Science Developer Test
+
+Data: Refer to file attached
+
+Time Limit: 120 minutes (2 hours)
+
+
+Problem: Using R or Python, address the following goals.  Provide comments and observations along with your code and output.
+
+Load the data and identify issues.  Implement repairs.
+
+Plot and describe the overall trend of the data.  What is happening?
+
+Forecast sales for the next 12 months
+
+Based on the data, create a forecast for 2020 sales across each category.
+
+Starting in April of 2020, show the predicted effects of the Federal Covid economic stimulus by including an additional food sales rise of 10%, drink sales rise of 5%, and dessert sales fall of -5%.  
+
+For months after April, model half as much impact as the prior month. Write a generalizable function that takes in your forecast dataframe, the month and year of the stimulus, and the % effect on each category. The function will return the adjusted forecast dataframe.
+
